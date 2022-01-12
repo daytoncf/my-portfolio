@@ -1,7 +1,7 @@
 import React from 'react'
 import './thumbnail.css'
 
-const Thumbnail = () => {
+const Thumbnail = (props) => {
     return (
         <div className='project__card'>
             <img alt="placeholder" />

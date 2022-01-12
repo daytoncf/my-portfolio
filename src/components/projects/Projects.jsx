@@ -5,7 +5,7 @@ import { SiDiscord } from 'react-icons/si'
 
 
 
-export default function Projects() {
+export default function Projects(props) {
     const projects = [
       {
         image: {SiDiscord},

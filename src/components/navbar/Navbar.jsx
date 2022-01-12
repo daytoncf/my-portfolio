@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { RiCloseLine, RiMenu3Line } from 'react-icons/ri';
+import { RiCloseLine, RiMenu3Line, RiMoonFill } from 'react-icons/ri';
 import logo from '../../assets/book_logo.svg';
 import './navbar.css';
 
-const Menu = () => {
+const Menu = (props) => {
   return(
     <>
+      <button onClick={props.darkModeToggle}><RiMoonFill className='navbar__links_item' alt='Dark Mode Toggle' /></button>
       <Link to="/about" className='navbar__links_item'> About</Link>
       <Link to="/articles" className='navbar__links_item'> Articles</Link>
       <Link to="/" className='navbar__links_item'> Projects</Link>
@@ -14,14 +15,14 @@ const Menu = () => {
   )
 }
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
         <div className="navbar">
           <img className="navbar__logo" src={logo} alt="logo"/>
           <div className="navbar__links">
-            <Menu />
+            <Menu darkModeToggle={props.toggleDM} />
           </div>
           <div className="navbar__menu">
             {toggleMenu 
