@@ -2,12 +2,14 @@ import React from 'react';
 import './header.css';
 
 const Header = (props) => {
+
+    let titleClass = (props.darkMode) ? 'header__content_title' : 'header__content_title-light'
     return (
         <div className="header section__padding">
             <div className='header__content'>
-                <h1 className='header__content-title'>Hi, I'm Dayton. I'm a college student learning fullstack development.</h1>
+                <h1 className={titleClass}>Hi, I'm Dayton. I'm a college student learning fullstack development.</h1>
                 <p>Learn more about what I've done below.</p>
-                <a className="header__chevron" href='#projects' />
+                <span className="header__chevron" />
             </div>
             
         </div>

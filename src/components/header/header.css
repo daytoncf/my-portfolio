@@ -17,7 +17,7 @@
     margin-bottom: 25vh;
 }
 
-.header__content-title {
+.header__content_title {
     font-weight: 900;
     line-height: 150%;
     font-size: 60px;
@@ -25,6 +25,13 @@
     background: -webkit-linear-gradient(65deg,#FFD9CE, #DB5461);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.header__content_title-light {
+    font-weight: 900;
+    line-height: 150%;
+    font-size: 60px;
+    color: var(--color-dark);
 }
 
 .header__chevron {

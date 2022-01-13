@@ -33,7 +33,7 @@ a {
     /* global 92%+ browsers support */
     background:radial-gradient(circle at 7% 20%, rgba(54, 57, 89, 1) 0%, var(--color-dark) 100%);
 
-}
+}   
 
 .gradient__text {
     background: linear-gradient(90deg, rgba(255, 111, 62, 1) 0%, rgba(158, 212, 255, 1) 54%);

@@ -3,8 +3,8 @@
 :root {
     --font-family: 'Roboto', sans-serif;
     
-    --color-bg: #101019;
-    --color-text: #eee;
+    --color-dark: #101019;
+    --color-light: #eee;
     --color-accent: #a2e0c8;
     --color-footer: #202340;
      
