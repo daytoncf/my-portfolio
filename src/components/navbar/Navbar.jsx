@@ -20,24 +20,25 @@ const Menu = (props) => {
 const Navbar = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false);
   let logoColor = (props.darkMode) ? 'navbar__logo-dark' : 'navbar__logo-light';
+  let menuColor = (props.darkMode) ? 'navbar__menu-container navbar__menu-container-dark scale-up-center' : 'navbar__menu-container navbar__menu-container-light scale-up-center';
     return (
-        <div className="navbar">
+        <section className="navbar">
           <img className={logoColor} src={logo} alt="logo"/>
           <div className="navbar__links">
             <Menu darkMode={props.darkMode} darkModeToggle={props.dmToggle}/>
           </div>
           <div className="navbar__menu">
             {toggleMenu 
-              ? <RiCloseLine color="#eee" size={27} onClick={() => setToggleMenu(false)}/>
-              : <RiMenu3Line color="#eee" size={27} onClick={() => setToggleMenu(true)} />
+              ? <RiCloseLine color={(props.darkMode) ? "#eee" : "101019"} size={27} onClick={() => setToggleMenu(false)}/>
+              : <RiMenu3Line color={(props.darkMode) ? "#eee" : "101019"} size={27} onClick={() => setToggleMenu(true)} />
             }
             {toggleMenu && (
-              <div className='navbar__menu-container scale-up-center'>
-                <Menu />
+              <div className={menuColor}>
+                <Menu darkMode={props.darkMode} darkModeToggle={props.dmToggle}/>
               </div>
             )}
           </div>
-        </div>
+        </section>
     );
 }
 

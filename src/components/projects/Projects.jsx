@@ -1,45 +1,37 @@
 import React from 'react'
 import './projects.css'
 import Thumbnail from './Thumbnail'
-import { SiDiscord } from 'react-icons/si'
+import pokeball from '../../assets/pokeball.svg';
 
 
 
 export default function Projects(props) {
     const projects = [
       {
-        image: {SiDiscord},
+        image: pokeball,
         title: "pokemon-tcg-bot",
         link: "https://github.com/daytoncf/pokemon-tcg-bot",
-        description: "gs"
+        description: "shiitttt"
       },
       {
-        image: {SiDiscord},
+        image: pokeball,
         title: "pokemon-tcg-bot",
         link: "https://github.com/daytoncf/pokemon-tcg-bot",
-        description: "gs"
+        description: "woahhh also pokemon :)"
       },
       {
-        image: {SiDiscord},
+        image: pokeball,
         title: "pokemon-tcg-bot",
         link: "https://github.com/daytoncf/pokemon-tcg-bot",
-        description: "gs"
+        description: "Yeah this is pokemon"
       },
     ];
 
     return (
-        <div id='projects'>
+        <section id='projects'>
           <div className="projects__container">
-            <Thumbnail  
-                          
-            />
-            <Thumbnail
-              
-            />
-            <Thumbnail 
-              
-            />
+            {projects.map((project) => <Thumbnail project={project} key={project.image} />)}
           </div>  
-        </div>
+        </section>
     )
 }
