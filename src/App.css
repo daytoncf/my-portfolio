@@ -6,6 +6,8 @@ body {
     margin: 0;
 }
 
+
+
 a {
     color: unset;
     text-decoration: unset;
@@ -15,6 +17,7 @@ a {
     color: var(--color-dark);
     background-color: var(--color-light);
 }
+
 
 .gradient__bg {
 
