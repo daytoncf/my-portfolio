@@ -5,7 +5,7 @@ import './App.css';
 
 const App = (props) =>  {
 
-  const [darkMode, toggleDarkMode] = useState(true);
+  const [darkMode, toggleDarkMode] = useState(false);
 
   const handleDarkModeToggle = () => {
     toggleDarkMode(!darkMode);

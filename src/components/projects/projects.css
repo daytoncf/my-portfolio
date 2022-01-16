@@ -1,8 +1,4 @@
-.projects {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
+ 
 
 .projects__title {
     text-align: center;
@@ -15,13 +11,16 @@ h2.projects__title-light {
 }
 
 #projects {
-    height: 100vh;
-    width: auto;
+    display: block;
 }
+
 
 .projects__container {
     display: flex;
+    width: 100%;
+    height: auto;
     justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
 
 }

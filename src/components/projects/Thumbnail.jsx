@@ -3,18 +3,17 @@ import './thumbnail.css'
 
 const Thumbnail = (props) => {
   return (
-    <a 
-      href={props.project.link}
-      className='project__card'>
-      <img
-          alt="gallery"
-          src={props.project.image}
-          className='project__card_image'
-      />
-      <div className='project__card'>
-        {props.project.description}
-      </div>  
-    </a>
+    <div className='project__card'>
+
+      <img className="project__img" src={props.project.image} alt="gallery"/>
+      <div className='project__content'>
+        <h2 className='project__content_title'>{props.project.title}</h2>
+        <p className='project__content_desc'>{props.project.description}</p> 
+        <a href={props.project.link}>here</a>
+      </div>
+        
+       
+    </div>
   )
 }
 
