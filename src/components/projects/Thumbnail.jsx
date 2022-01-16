@@ -3,7 +3,7 @@ import './thumbnail.css'
 
 const Thumbnail = (props) => {
   return (
-    <div className='project__card'>
+    <div className='project__card grow'>
 
       <img className="project__img" src={props.project.image} alt="gallery"/>
       <div className='project__content'>

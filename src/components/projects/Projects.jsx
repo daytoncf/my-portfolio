@@ -20,12 +20,6 @@ export default function Projects(props) {
         link: "https://github.com/daytoncf/pokemon-tcg-bot",
         description: "woahhh also pokemon :)"
       },
-      {
-        image: pokeball,
-        title: "pokemon-tcg-bot",
-        link: "https://github.com/daytoncf/pokemon-tcg-bot",
-        description: "Yeah this is pokemon"
-      },
     ];
 
     return (
