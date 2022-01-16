@@ -1,4 +1,5 @@
 img {
+    display: block;
     width: 100%;
     height: auto;
     transition: transform 250ms;
@@ -26,9 +27,12 @@ img {
 
 .project__card .project__content {
     position: absolute;
-    bottom: 0; 
-    color: #f1f1f1;
+    background: var(--color-dark);
+    bottom: 0;
+    
+    height: auto;
     width: 100%;
+    color: #f1f1f1;
     border-radius: 2%;
     padding: 1.25rem;
     opacity: 0;
@@ -36,6 +40,7 @@ img {
 
 .project__content_title {
     text-align: left;
+    display: inline;
 }
 
 .project__content_desc {

@@ -1,5 +1,6 @@
 import React from 'react'
 import './thumbnail.css'
+import { FiExternalLink } from 'react-icons/fi/';
 
 const Thumbnail = (props) => {
   return (
@@ -7,9 +8,11 @@ const Thumbnail = (props) => {
 
       <img className="project__img" src={props.project.image} alt="gallery"/>
       <div className='project__content'>
-        <h2 className='project__content_title'>{props.project.title}</h2>
+        <a href={props.project.link}>
+          <h2 className='project__content_title'>{props.project.title} </h2>
+          <FiExternalLink size={24}/>
+        </a>
         <p className='project__content_desc'>{props.project.description}</p> 
-        <a href={props.project.link}>here</a>
       </div>
         
        

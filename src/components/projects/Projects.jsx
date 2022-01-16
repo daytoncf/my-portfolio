@@ -12,13 +12,13 @@ export default function Projects(props) {
         image: goob,
         title: "Goobla Academy API",
         link: "https://github.com/jacksonwelsh/goobla-server",
-        description: "In collaboration with a teammate of mine at HackDFW 2021, we developed a REST API integrated with AWS' NoSQL service DynamoDB to serve data to our Vue app. Check out the Github page "
+        description: "In collaboration with my group at HackDFW 2021, we developed a REST API integrated with AWS' NoSQL service DynamoDB to serve data to our Vue app. Built with Flask, a Python micro web framework."
       },
       {
         image: pokeball,
         title: "pokemon-tcg-bot",
         link: "https://github.com/daytoncf/pokemon-tcg-bot",
-        description: "woahhh also pokemon :)"
+        description: "A bot that uses the Pokemon TCG API to provide quick display of any printed pokemon card in a discord server. Running in the cloud on an AWS' EC2 Ubuntu instance. Built with Discord.js, Pokemon TCG API, and Axios."
       },
     ];
 

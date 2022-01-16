@@ -11,7 +11,6 @@ const Menu = (props) => {
     <>
       <button onClick={props.darkModeToggle} className={buttonColor}><RiMoonFill className='navbar__links_item' alt='Dark Mode Toggle' /></button>
       <Link to="/about" className='navbar__links_item'> About</Link>
-      <Link to="/articles" className='navbar__links_item'> Articles</Link>
       <Link to="/" className='navbar__links_item'> Projects</Link>
     </>
   );

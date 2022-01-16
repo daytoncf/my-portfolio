@@ -1,14 +1,12 @@
- 
+h1 {
+    font-size: 2rem;
+} 
 
 .projects__title {
     text-align: center;
     padding: 2rem 0;
 }
 
-h2.projects__title-light {
-    text-align: center;
-
-}
 
 #projects {
     display: block;
