@@ -11,7 +11,7 @@ const App = (props) =>  {
     toggleDarkMode(!darkMode);
   };
 
-  let appClass =  (darkMode) ? "App gradient__bg" : "App-light"; 
+  let appClass =  (darkMode) ? "App gradient__bg" : "App App-light"; 
 
   return (
       <div className={appClass}>

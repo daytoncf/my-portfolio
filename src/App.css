@@ -18,6 +18,11 @@ a {
     background-color: var(--color-light);
 }
 
+.App {
+    display: grid;
+    grid-auto-columns: auto;
+}
+
 
 .gradient__bg {
 

@@ -31,7 +31,7 @@
     font-weight: 900;
     line-height: 150%;
     font-size: 60px;
-    color: var(--color-dark);
+    color: var(--color-blue-400);
 }
 
 .header__chevron {
@@ -45,10 +45,16 @@
     animation: fade 3s linear forwards;
     animation-iteration-count: infinite;
     opacity: 1;
+    line-height: 0px;
+    font-size: 0px;
 }
 
 .header__chevron-click {
     cursor: pointer;
+}
+
+.header__chevron-light {
+    border-color: var(--color-blue-400);
 }
 
 
