@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { Navbar, Header, Projects, About, Articles } from './components';
+import { Navbar, About,  } from './components';
+import Home from './Home';
 import './App.css';
 
 const App = (props) =>  {
@@ -16,10 +17,9 @@ const App = (props) =>  {
   return (
       <div className={appClass}>
         <Navbar className="navbar" dmToggle={handleDarkModeToggle} darkMode={darkMode} />
-        <Header  darkMode={darkMode}/>
         <Routes>
-          <Route path="/" element={<Projects />} />
-          <Route path="/about" component={<About />} />
+          <Route path="/" element={<Home darkMode={darkMode}/>} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
   );

@@ -22,9 +22,11 @@ export default function Projects(props) {
       },
     ];
 
+    let titleClass = (props.darkMode) ? "projects__title" : "projects__title projects_title-light";
+
     return (
         <section id='projects'>
-          <div className='projects__title'>
+          <div className={titleClass}>
             <h1>Here are some things I've built</h1>
           </div>
           <div className="projects__container">

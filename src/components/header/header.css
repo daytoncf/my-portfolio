@@ -4,6 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    flex-shrink: 0;
 }
 
 .header__content {
@@ -21,7 +22,7 @@
     font-weight: 900;
     line-height: 150%;
     font-size: 60px;
-    /* color: #DB5461; */
+    /* color: #db949b; */
     background: -webkit-linear-gradient(65deg,#FFD9CE, #DB5461);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -31,7 +32,7 @@
     font-weight: 900;
     line-height: 150%;
     font-size: 60px;
-    color: var(--color-blue-400);
+    color: var(--color-unt-green);
 }
 
 .header__chevron {
@@ -54,7 +55,7 @@
 }
 
 .header__chevron-light {
-    border-color: var(--color-blue-400);
+    border-color: var(--color-dark);
 }
 
 
