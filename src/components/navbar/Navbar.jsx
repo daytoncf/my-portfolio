@@ -22,7 +22,9 @@ const Navbar = (props) => {
   let menuColor = (props.darkMode) ? 'navbar__menu-container navbar__menu-container-dark scale-up-center' : 'navbar__menu-container navbar__menu-container-light scale-up-center';
     return (
         <section className="navbar">
-          <img className={logoColor} src={logo} alt="logo"/>
+          <Link to="/" className='navbar__links_item'>
+            <img className={logoColor} src={logo} alt="logo"/>
+          </Link>
           <div className="navbar__links">
             <Menu darkMode={props.darkMode} darkModeToggle={props.dmToggle}/>
           </div>
