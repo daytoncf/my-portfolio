@@ -11,3 +11,7 @@
     --color-pink-600: #F72585;
     --color-unt-green: #366D49;
 }
+
+html {
+    scroll-behavior: smooth;
+}
