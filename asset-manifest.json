@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2193c1b0.css",
-    "main.js": "/static/js/main.21ae35f3.js",
+    "main.css": "/static/css/main.813e674b.css",
+    "main.js": "/static/js/main.16feb466.js",
+    "static/media/me_zoomed.jpg": "/static/media/me_zoomed.4315169ca229859ec2e4.jpg",
     "static/media/pokemon.JPG": "/static/media/pokemon.2455ece35faa77bd8a58.JPG",
     "static/media/goobla_academy1.JPG": "/static/media/goobla_academy1.185bf204e3cc30775cf8.JPG",
-    "static/media/book_logo.svg": "/static/media/book_logo.e3fc4e6edb090720620b4a60cddca094.svg",
+    "static/media/book_logo.svg": "/static/media/book_logo.0d05caf3afe8f77a24e0e91f735e8681.svg",
     "index.html": "/index.html",
-    "main.2193c1b0.css.map": "/static/css/main.2193c1b0.css.map",
-    "main.21ae35f3.js.map": "/static/js/main.21ae35f3.js.map"
+    "main.813e674b.css.map": "/static/css/main.813e674b.css.map",
+    "main.16feb466.js.map": "/static/js/main.16feb466.js.map"
   },
   "entrypoints": [
-    "static/css/main.2193c1b0.css",
-    "static/js/main.21ae35f3.js"
+    "static/css/main.813e674b.css",
+    "static/js/main.16feb466.js"
   ]
 }
