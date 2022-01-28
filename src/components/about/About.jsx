@@ -3,9 +3,11 @@ import './about.css'
 import me from '../../assets/me_zoomed.jpg'
 
 export default function About(props) {
+
+    let borderColor = (props.darkMode) ? "border-dark" : "border-light";
     return (
         <div className='about'>
-            <div className='about__container'>
+            <div className={`about__container ${borderColor}`}>
                 <div className='img__container'>
                     <img src={me} className="about__img" alt='Me at a flooded park with a hoodie placed awkwardly around my shoulders'/>
                 </div>

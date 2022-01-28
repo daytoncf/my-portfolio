@@ -19,7 +19,7 @@ const App = (props) =>  {
         <Navbar className="navbar" dmToggle={handleDarkModeToggle} darkMode={darkMode} />
         <Routes>
           <Route path="/" element={<Home darkMode={darkMode}/>} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About darkMode={darkMode} />} />
         </Routes>
       </div>
   );

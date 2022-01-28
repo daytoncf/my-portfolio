@@ -1,6 +1,5 @@
 h1 {
     font-size: 2rem;
-    line-height: 0.5rem;
     margin-bottom: 1rem;
 } 
 
@@ -8,6 +7,7 @@ h1 {
     text-align: center;
     padding: 2rem 0;
     color: var(--color-light);
+    
 }
 
 .projects_title-light {
@@ -28,5 +28,13 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+
+}
+
+@media screen and (max-width: 450px) {
+    .projects__title {
+        padding: 8rem 0 2rem 0;
+        
+    }
 
 }

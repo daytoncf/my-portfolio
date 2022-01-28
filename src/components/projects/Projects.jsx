@@ -11,7 +11,7 @@ export default function Projects(props) {
       {
         image: goob,
         title: "Goobla Academy API",
-        link: "https://github.com/jacksonwelsh/goobla-server",
+        link: "https://goobla.academy",
         description: "In collaboration with my group at HackDFW 2021, we developed a REST API integrated with AWS' NoSQL service DynamoDB to serve data to our Vue app. Built with Flask, a Python micro web framework."
       },
       {
