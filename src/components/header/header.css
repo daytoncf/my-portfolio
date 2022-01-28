@@ -27,6 +27,7 @@
     /* color: #db949b; */
     background: -webkit-linear-gradient(65deg,#FFD9CE, #DB5461);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
